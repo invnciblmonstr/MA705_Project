@@ -1,7 +1,7 @@
 import pandas as pd
 import plotly.express as px
 from dash.exceptions import PreventUpdate
-player = pd.read_csv('players.csv')
+player = pd.read_csv('players_21.csv')
 import dash
 import dash_html_components as html
 import dash_core_components as dcc
