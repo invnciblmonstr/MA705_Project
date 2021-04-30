@@ -29,7 +29,7 @@ def player_information(player_name):
             html.P(f"Date of Birth: {date_of_birth}"),
             html.P("Nationality: " + nationality),
             html.P("Club: " + club),
-            html.P("Height: " + str(weight) + ' KG'),
+            html.P("Weight: " + str(weight) + ' KG'),
             html.P("Height: " + str(height) + ' CM'),
             html.P("Positions: " + position),
             html.P("Jersey Number: " + str(jersey)),
