@@ -1,1 +1,1 @@
-web: gunicorn fifa_dash:server
+web: gunicorn fifa:server
