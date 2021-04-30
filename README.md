@@ -19,7 +19,14 @@ This dashboard shows details of players for comparison. The players' stats are s
 11. Jersey Number
 12. Value (EUR)
 
-## Player Stats
+## Player Stats (Radar Chart)
+Player attributes strengths analyzed by following variables:
+1. Pace
+2. Shooting
+3. Passing
+4. Dribbling
+5. Defending
+6. Physic
 ![image](https://user-images.githubusercontent.com/70956177/116705762-e52e3300-a99a-11eb-9ff9-2f47611badf0.png)
 
 ## Nationality Location on Map
