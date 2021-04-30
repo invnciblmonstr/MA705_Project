@@ -123,6 +123,7 @@ app = dash.Dash(__name__, external_stylesheets=[dbc.themes.DARKLY],
                 meta_tags=[{'name': 'viewport',
                             'content': 'width=device-width, initial-scale=1.0'}]
                 )
+server = app.server
 app.layout = dbc.Container([
     html.H1('FIFA Player Comparison Dashboard', style={'textAlign' : 'center'}),
     dbc.Row([dbc.Col(card1), dbc.Col(card2)], justify= 'around'),
@@ -193,4 +194,5 @@ def get_country_map1(name):
         raise PreventUpdate
 
 if __name__ == '__main__':
-    app.run_server(debug=False)
+    app.run_server(debug=True)
+    
