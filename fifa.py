@@ -105,7 +105,7 @@ card6 = dbc.Card(
             )
 card4 = dbc.Card(
                 dbc.CardBody(
-                    children=[
+                    children=[dbc.CardHeader("Player 1's Country"),
                         dcc.Graph(id='p1nation', style={"width": "400px"})
                     ], style={"width": "25rem"},
                 )
@@ -113,7 +113,7 @@ card4 = dbc.Card(
 
 card5 = dbc.Card(
                 dbc.CardBody(
-                    children=[
+                    children=[dbc.CardHeader("Player 2's Country"),
                         dcc.Graph(id='p2nation', style={"width": "400px"})
                     ],
                 )
