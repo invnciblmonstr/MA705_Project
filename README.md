@@ -10,7 +10,7 @@ This dashboard shows details of players for comparison. The players' stats are s
 2. Overall Score
 3. Age
 4. Date of Birth
-5. Overall Score: 93
+5. Overall Score
 6. Nationality
 7. Club
 8. Height
